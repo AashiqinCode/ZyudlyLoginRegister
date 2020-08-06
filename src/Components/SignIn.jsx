@@ -1,4 +1,6 @@
+// React Hooks - useState
 import React, {useState} from "react";
+
 import { Link } from "@reach/router";
 import { signInWithGoogle } from "../firebase";
 import { auth } from "../firebase";
@@ -44,7 +46,7 @@ const SignIn = () => {
             className="my-1 p-1 w-full"
             name="userEmail"
             value = {email}
-            placeholder="E.g: faruq123@gmail.com"
+            placeholder="E.g: any@domain.com"
             id="userEmail"
             onChange = {(event) => onChangeHandler(event)}
           />

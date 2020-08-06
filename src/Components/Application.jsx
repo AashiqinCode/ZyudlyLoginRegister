@@ -7,6 +7,8 @@ import ProfilePage from "./ProfilePage";
 import { UserContext } from "../providers/UserProvider";
 import PasswordReset from "./PasswordReset";
 function Application() {
+
+  // Consuming the Context
   const user = useContext(UserContext);
   return (
         user ?

@@ -4,14 +4,13 @@ import "firebase/firestore";
 import { functions } from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA9WZB5N6ekNxyN3yGaUwjuBilvXItUv38",
-  authDomain: "fir-auth-article.firebaseapp.com",
-  databaseURL: "https://fir-auth-article.firebaseio.com",
-  projectId: "fir-auth-article",
-  storageBucket: "fir-auth-article.appspot.com",
-  messagingSenderId: "774252759419",
-  appId: "1:774252759419:web:e014ddfa3553a4832a15de",
-  measurementId: "G-77Z5WJ0SET"
+  apiKey: "AIzaSyA2CLk_4c8ZZGci0PUZYwnlJgOSmPaZhao",
+    authDomain: "react-login-1b635.firebaseapp.com",
+    databaseURL: "https://react-login-1b635.firebaseio.com",
+    projectId: "react-login-1b635",
+    storageBucket: "react-login-1b635.appspot.com",
+    messagingSenderId: "387893803586",
+    appId: "1:387893803586:web:acb16caa939d703a370bdb"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
